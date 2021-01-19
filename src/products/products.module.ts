@@ -1,6 +1,6 @@
 import { MiddlewareConsumer, Module, NestModule } from "@nestjs/common";
 import { MongooseModule } from "@nestjs/mongoose";
-import { LoggerMiddleware } from "src/middleware/logging.middleware";
+import { LoggerMiddleware } from "../middleware/logging.middleware";
 import { ProductSchema } from "./product.model";
 import { ProductsController } from "./products.controller";
 import { ProductsService } from "./products.service";
