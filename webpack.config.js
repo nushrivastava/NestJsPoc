@@ -12,7 +12,7 @@ module.exports = {
   entry: './src/main.ts',
   mode: NODE_ENV,
   target: 'node',
-  externals: [nodeExternals()],
+  externals: [],
   plugins: [
     new webpack.IgnorePlugin({
       /**
